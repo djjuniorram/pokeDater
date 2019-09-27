@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Activity:</strong>
+  <%= @rendezvou.activity_id %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @rendezvou.location_id %>
+</p>
+
+<p>
+  <strong>Pet:</strong>
+  <%= @rendezvou.pet_id %>
+</p>
+
+<p>
+  <strong>Single pet:</strong>
+  <%= @rendezvou.single_pet_id %>
+</p>
+
+<%= link_to 'Edit', edit_rendezvou_path(@rendezvou) %> |
+<%= link_to 'Back', rendezvous_path %>

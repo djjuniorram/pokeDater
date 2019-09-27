@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Rendezvous</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Activity</th>
+      <th>Location</th>
+      <th>Pet</th>
+      <th>Single pet</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rendezvous.each do |rendezvou| %>
+      <tr>
+        <td><%= rendezvou.activity_id %></td>
+        <td><%= rendezvou.location_id %></td>
+        <td><%= rendezvou.pet_id %></td>
+        <td><%= rendezvou.single_pet_id %></td>
+        <td><%= link_to 'Show', rendezvou %></td>
+        <td><%= link_to 'Edit', edit_rendezvou_path(rendezvou) %></td>
+        <td><%= link_to 'Destroy', rendezvou, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Rendezvou', new_rendezvou_path %>

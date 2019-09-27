@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  species: MyString
+  nickname: MyString
+  likes: MyString
+  dislikes: MyString
+  element_type: 
+  img_url: MyString
+  single: false
+  partner_id: 1
+
+two:
+  species: MyString
+  nickname: MyString
+  likes: MyString
+  dislikes: MyString
+  element_type: 
+  img_url: MyString
+  single: false
+  partner_id: 1

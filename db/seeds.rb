@@ -1,0 +1,71 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+user1 = User.create(name: "Ram", email: "rammyram")
+user2 = User.create(name: "Ran", email: "rannyram")
+user3 = User.create(name: "Rab", email: "rabbyram")
+user4 = User.create(name: "Rav", email: "ravvyram")
+user5 = User.create(name: "Rac", email: "raccyram")
+user6 = User.create(name: "Rax", email: "raxxyram")
+
+pet1 = Pet.create(species: "Pikachu", element_type: "Electric", img_url: "https://specials-images.forbesimg.com/imageserve/5d4e3c3bec8b3e00086d4298/960x0.jpg?fit=scale")
+pet2 = Pet.create(species: "Charmander", element_type: "Fire", img_url: "https://www.thesun.co.uk/wp-content/uploads/2019/04/charmander.jpg")
+pet3 = Pet.create(species: "Squirtle", element_type: "Water", img_url: "https://nerdist.com/wp-content/uploads/2019/05/Detective-Pikachu-casting-1200x676.jpg")
+pet4 = Pet.create(species: "Bulbasaur", element_type: "Grass", img_url: "https://cdn1.thr.com/sites/default/files/2019/05/detective_pikachu-bulbasaur-publicity-h_2019.jpg")
+pet5 = Pet.create(species: "Pidgey", element_type: "Flying", img_url: "https://static.pokemonpets.com/images/monsters-images-800-800/2016-Shiny-Pidgey.png")
+pet6 = Pet.create(species: "Oddish", element_type: "Grass", img_url: "https://i.pinimg.com/originals/cc/05/e3/cc05e31ee6626d7aabe111e3e407383a.jpg")
+pet7 = Pet.create(species: "Voltorb", element_type: "Electric", img_url: "https://static.pokemonpets.com/images/monsters-images-300-300/100-Voltorb.png")
+pet8 = Pet.create(species: "Dratini", element_type: "Dragon", img_url: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png")
+pet9 = Pet.create(species: "Magikarp", element_type: "Water", img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSX2BMdIKiJoCM1I1m6O8oJIs6UGEUzdnJH3OPPqvQdgQeHo5pA")
+pet10 = Pet.create(species: "Vulpix", element_type: "Fire", img_url: "https://static.pokemonpets.com/images/monsters-images-800-800/2037-Shiny-Vulpix.png")
+pet11= Pet.create(species: "Growlithe", element_type: "Fire", img_url: "https://cdn.bulbagarden.net/upload/thumb/3/3d/058Growlithe.png/1200px-058Growlithe.png")
+pet12 = Pet.create(species: "Poliwag", element_type: "Water", img_url: "https://scontent-bog1-1.cdninstagram.com/vp/74d4b74ca3817500fa68cdb4a566b049/5DB68749/t51.2885-15/e35/s1080x1080/60452119_324269111586183_8264002263180392330_n.jpg?_nc_ht=scontent-bog1-1.cdninstagram.com")
+pet13 = Pet.create(species: "Mew", element_type: "Rare", img_url: "http://static.pokemonpets.com/images/monsters-images-800-800/151-Mew.png")
+
+activity1 = Activity.create(name: "Movies", description: "Seeing the newest movie.")
+activity2 = Activity.create(name: "Dinner", description: "Have a romantic meal.")
+activity3 = Activity.create(name: "Bowling", description: "Go bowling.")
+activity4 = Activity.create(name: "Picnic", description: "Have a relaxing picnic.")
+activity5 = Activity.create(name: "Painting", description: "Paint night.")
+activity6 = Activity.create(name: "Cocktails", description: "Go out for drinks.")
+activity7 = Activity.create(name: "Arcade", description: "Play games at an arcade.")
+activity8 = Activity.create(name: "Escape Room", description: "Get trapped in a room and try to find you way out.")
+activity9 = Activity.create(name: "Cruise", description: "Spend the day on a boat.")
+activity10 = Activity.create(name: "Beach", description: "Go swimming or suntanning on the beach.")
+activity11 = Activity.create(name: "Hiking", description: "Go hiking on a terraneous trail.")
+activity12 = Activity.create(name: "Cambio", description: "Play the card game cambio.")
+activity13 = Activity.create(name: "Netflix & Chill", description: "Start a movie that you're not going to finish....")
+activity14 = Activity.create(name: "Twerk Contest", description: "A rewarding exercise for your glutes.")
+activity15 = Activity.create(name: "Twister", description: "Get all tangled up in a game fo twister.")
+activity16 = Activity.create(name: "Workout", description: "Spot each other as you get ripped in the gym.")
+
+location1 = Location.create(name: "Statue of Liberty", bio: "A colossal neo-classical sculpture on Liberty Island in New York Harbor.", img_url: "https://imgs.6sqft.com/wp-content/uploads/2019/05/14083515/Statue-of-Liberty-Museum-1.jpg")
+location2 = Location.create(name: "Central Park", bio: "The most visited urban park in the United States.", img_url: "https://thenypost.files.wordpress.com/2018/07/central-park-conservancy.jpg?quality=90&strip=all&w=618&h=410&crop=1")
+location3 = Location.create(name: "Flatiron School", bio: "The land of xxRedDarknessxx.", img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAvUhZomtW2PHI3pK0HlZ7-RBdXb6TwdppcM6nvSYnpkAdxifG")
+location4 = Location.create(name: "Great Wall of China", bio: "The biggest wall in the world.", img_url: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/15/7f/87/shutterstock-302911814.jpg")
+location5 = Location.create(name: "Great Nile River", bio: "The longest river in africa.", img_url: "http://www.sporcle.com/blog/wp-content/uploads/2018/08/1-6.jpg")
+location6 = Location.create(name: "Bermuda Triangle", bio: "Also known as the Devil's triangle not the Devil's threeway.", img_url: "https://www.techexplorist.com/wp-content/uploads/2018/08/bermuda-triangle.jpg")
+location7 = Location.create(name: "Amazon Jungle", bio: "Moist broad leaf tropical rainforest in the amazon biome.", img_url: "https://www.fairobserver.com/wp-content/uploads/2019/08/Amazon-Rainforest.jpg")
+location8 = Location.create(name: "Mount Everest Summit", bio: "On top of the earth's largest mountain.", img_url: "https://i.kinja-img.com/gawker-media/image/upload/s--ohXIv1mF--/c_scale,f_auto,fl_progressive,q_80,w_800/nowlwmfmy6trkksdgett.png")
+location9 = Location.create(name: "The Vatican", bio: "Where the pope lives.", img_url: "https://amp.thenational.ae/image/policy:1.824996:1550158278/tr13-FEB-vatican-city.jpg?f=16x9&w=1200&$p$f$w=9cd517e")
+location10 = Location.create(name: "The Oval Office", bio: 'Where the president conducts his "meetings".', img_url: "https://media.npr.org/assets/img/2015/10/22/gettyimages-103754069_wide-b11e726f5b88e2cf31853b2fe38fcc27ef3ef848-s800-c85.jpg")
+location11 = Location.create(name: "Eiffel Tower", bio: "The tallest structure in the most romantic city on earth.", img_url: "https://www.portablepress.com/wp-content/uploads/2018/01/iStock-505494458-1024x682.jpg")
+location12 = Location.create(name: "Grand Canyon", bio: "One big ole' canyon.", img_url: "https://www.outsideonline.com/sites/default/files/styles/img_600x600/public/2018/11/20/outside-guide-grand-canyon_s.jpg?itok=RhUTTtXd")
+location13 = Location.create(name: "Sahara Desert", bio: "The largest hot desert in the world.", img_url: "https://thumbs-prod.si-cdn.com/7bkCIfSAEuwtPdpgOjmzawJUb6g=/420x240/https://public-media.si-cdn.com/filer/f2/94/f294516b-db3d-4f7b-9a60-ca3cd5f3d9b2/fbby1h_1.jpg")
+location14 = Location.create(name: "Area 51", bio: "Aliens....enough said...they're watching...", img_url: "https://sa.kapamilya.com/absnews/abscbnnews/media/2019/tvpatrol/09/17/20190921-naruto-run.jpg")
+location15 = Location.create(name: "Antarctica", bio: "Cold and very unpleasant....oh and penguins.", img_url: "https://ak5.picdn.net/shutterstock/videos/1024198505/thumb/1.jpg")
+location16 = Location.create(name: "The Moon", bio: "One small step for mankind, one big step for this relationship.", img_url: "https://leapsmag.com/wp-content/uploads/2019/01/MOON-ADJ.jpg")
+location17 = Location.create(name: "Mars", bio: "The red planet.", img_url: "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1540672634/181025-basu-mars-food-tease_a5qtux")
+location18 = Location.create(name: "Krypton", bio: "Supermans birth planet and possibly your child's birth planet.", img_url: "https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2017/04/krypton-tv-series-kandor_0.png?itok=q8Z_AmS0")
+location19 = Location.create(name: "East New York", bio: "Yerrrrrrrrrr", img_url: "https://static01.nyt.com/images/2007/11/19/nyregion/banquet600.jpg")
+location20 = Location.create(name: "North Korea", bio: "Should you choose here, there's no leaving.", img_url: "https://cdn.americanprogress.org/content/uploads/2017/08/04053530/CROPAP_17106430371360-1024x683.jpg")
+location21 = Location.create(name: "Chernobyl", bio: "Radiate your relationship.", img_url: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1560183041%2Fchernobyl-abandoned-ferris-wheel-CHERNOBYL0619.jpg%3Fitok%3D9jLLFPlf&w=400&c=sc&poi=face&q=85")
+
+
+
+
